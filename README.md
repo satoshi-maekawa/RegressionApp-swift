@@ -1,4 +1,4 @@
-# multivariate-linear-regression-app
+# multivariate-linear-regression-app-swift
 重回帰分析アプリ
 # 多変量重回帰分析アプリケーション
 
