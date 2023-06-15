@@ -16,6 +16,8 @@
 		CE4F8E242A384A6D001B28BA /* SampleDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F8E232A384A6D001B28BA /* SampleDataViewController.swift */; };
 		CE4F8E2D2A3ACE01001B28BA /* Regression.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CE4F8E2B2A3ABE45001B28BA /* Regression.mlmodel */; };
 		CE4F8E2F2A3ACF9A001B28BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE4F8E2E2A3ACF9A001B28BA /* README.md */; };
+		CE4F8E322A3AD15D001B28BA /* convert.py in Resources */ = {isa = PBXBuildFile; fileRef = CE4F8E302A3AD15D001B28BA /* convert.py */; };
+		CE4F8E332A3AD15D001B28BA /* regression.py in Resources */ = {isa = PBXBuildFile; fileRef = CE4F8E312A3AD15D001B28BA /* regression.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		CE4F8E232A384A6D001B28BA /* SampleDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataViewController.swift; sourceTree = "<group>"; };
 		CE4F8E2B2A3ABE45001B28BA /* Regression.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Regression.mlmodel; path = RegressionApp/Regression.mlmodel; sourceTree = SOURCE_ROOT; };
 		CE4F8E2E2A3ACF9A001B28BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE4F8E302A3AD15D001B28BA /* convert.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = convert.py; sourceTree = "<group>"; };
+		CE4F8E312A3AD15D001B28BA /* regression.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = regression.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		CE4F8DFA2A37F6BB001B28BA = {
 			isa = PBXGroup;
 			children = (
+				CE4F8E302A3AD15D001B28BA /* convert.py */,
+				CE4F8E312A3AD15D001B28BA /* regression.py */,
 				CE4F8E2E2A3ACF9A001B28BA /* README.md */,
 				CE4F8E052A37F6BB001B28BA /* RegressionApp */,
 				CE4F8E042A37F6BB001B28BA /* Products */,
@@ -138,6 +144,8 @@
 				CE4F8E102A37F6BC001B28BA /* Assets.xcassets in Resources */,
 				CE4F8E2F2A3ACF9A001B28BA /* README.md in Resources */,
 				CE4F8E0E2A37F6BB001B28BA /* Main.storyboard in Resources */,
+				CE4F8E322A3AD15D001B28BA /* convert.py in Resources */,
+				CE4F8E332A3AD15D001B28BA /* regression.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
