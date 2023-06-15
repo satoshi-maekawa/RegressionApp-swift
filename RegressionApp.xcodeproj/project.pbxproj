@@ -13,8 +13,8 @@
 		CE4F8E0E2A37F6BB001B28BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4F8E0C2A37F6BB001B28BA /* Main.storyboard */; };
 		CE4F8E102A37F6BC001B28BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4F8E0F2A37F6BC001B28BA /* Assets.xcassets */; };
 		CE4F8E132A37F6BC001B28BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4F8E112A37F6BC001B28BA /* LaunchScreen.storyboard */; };
-		CE4F8E222A381227001B28BA /* Regression.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = CE4F8E212A381226001B28BA /* Regression.mlpackage */; };
 		CE4F8E242A384A6D001B28BA /* SampleDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F8E232A384A6D001B28BA /* SampleDataViewController.swift */; };
+		CE4F8E2C2A3ABE45001B28BA /* Regression.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CE4F8E2B2A3ABE45001B28BA /* Regression.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		CE4F8E0F2A37F6BC001B28BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4F8E122A37F6BC001B28BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4F8E142A37F6BC001B28BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE4F8E212A381226001B28BA /* Regression.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = Regression.mlpackage; path = ../../../python/Regression.mlpackage; sourceTree = "<group>"; };
 		CE4F8E232A384A6D001B28BA /* SampleDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataViewController.swift; sourceTree = "<group>"; };
+		CE4F8E2B2A3ABE45001B28BA /* Regression.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Regression.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		CE4F8E052A37F6BB001B28BA /* RegressionApp */ = {
 			isa = PBXGroup;
 			children = (
-				CE4F8E212A381226001B28BA /* Regression.mlpackage */,
+				CE4F8E2B2A3ABE45001B28BA /* Regression.mlmodel */,
 				CE4F8E062A37F6BB001B28BA /* AppDelegate.swift */,
 				CE4F8E082A37F6BB001B28BA /* SceneDelegate.swift */,
 				CE4F8E0A2A37F6BB001B28BA /* ViewController.swift */,
@@ -144,9 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4F8E222A381227001B28BA /* Regression.mlpackage in Sources */,
 				CE4F8E0B2A37F6BB001B28BA /* ViewController.swift in Sources */,
 				CE4F8E072A37F6BB001B28BA /* AppDelegate.swift in Sources */,
+				CE4F8E2C2A3ABE45001B28BA /* Regression.mlmodel in Sources */,
 				CE4F8E242A384A6D001B28BA /* SampleDataViewController.swift in Sources */,
 				CE4F8E092A37F6BB001B28BA /* SceneDelegate.swift in Sources */,
 			);
