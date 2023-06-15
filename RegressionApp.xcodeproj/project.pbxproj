@@ -46,6 +46,7 @@
 		CE4F8DFA2A37F6BB001B28BA = {
 			isa = PBXGroup;
 			children = (
+				CE4F8E2E2A3ACF9A001B28BA /* README.md */,
 				CE4F8E052A37F6BB001B28BA /* RegressionApp */,
 				CE4F8E042A37F6BB001B28BA /* Products */,
 			);
@@ -62,7 +63,6 @@
 		CE4F8E052A37F6BB001B28BA /* RegressionApp */ = {
 			isa = PBXGroup;
 			children = (
-				CE4F8E2E2A3ACF9A001B28BA /* README.md */,
 				CE4F8E2B2A3ABE45001B28BA /* Regression.mlmodel */,
 				CE4F8E062A37F6BB001B28BA /* AppDelegate.swift */,
 				CE4F8E082A37F6BB001B28BA /* SceneDelegate.swift */,
