@@ -62,9 +62,35 @@
                                 <color key="textColor" red="0.52423840372141484" green="0.52094130684266382" blue="0.52753550060016585" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="重回帰分析アプリ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDy-Dm-b7f">
+                                <rect key="frame" x="111" y="152.66666666666666" width="171" height="25.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x1, x2, x3, x4を入力するとyを予測します" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6u-Vk-Pe9">
+                                <rect key="frame" x="39.666666666666657" y="183" width="314" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multiple Linear Regression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kg5-vV-BVg">
+                                <rect key="frame" x="32.333333333333343" y="113.00000000000001" width="328.33333333333326" height="34.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kg5-vV-BVg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Eq9-7Q-H9z"/>
+                            <constraint firstItem="iDy-Dm-b7f" firstAttribute="top" secondItem="kg5-vV-BVg" secondAttribute="bottom" constant="5" id="TOT-2x-ClV"/>
+                            <constraint firstItem="u6u-Vk-Pe9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mDD-sS-mIg"/>
+                            <constraint firstItem="iDy-Dm-b7f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nUt-Qp-qXd"/>
+                            <constraint firstItem="u6u-Vk-Pe9" firstAttribute="top" secondItem="iDy-Dm-b7f" secondAttribute="bottom" constant="5" id="srJ-jI-0YT"/>
+                            <constraint firstItem="kg5-vV-BVg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xZI-XV-eHl"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qSK-w3-lyW">
                         <barButtonItem key="rightBarButtonItem" title="サンプルデータを見る" id="o17-Us-O1i">
