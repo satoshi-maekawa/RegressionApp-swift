@@ -1,4 +1,3 @@
-# 追記：ファイル変換までregression.pyで終わっており、ここでは拡張子を変えるだけ
 import coremltools as ct
 
 # Core MLモデルの読み込み
