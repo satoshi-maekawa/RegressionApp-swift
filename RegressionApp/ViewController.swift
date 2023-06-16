@@ -21,8 +21,7 @@ class ViewController: UIViewController {
         x3TextField.placeholder = "x3"
         x4TextField.placeholder = "x4"
     }
-    
-    // Core MLモデルのインスタンスを作成
+    // CoreMLモデルのインスタンスををmodelへ代入(try!はエラーが起きない時だけ使う　本来はdo-catch使う)
     let model = try! Regression(configuration: .init())
 
     @IBAction func predictButtonPressed(_ sender: UIButton) {
@@ -34,6 +33,7 @@ class ViewController: UIViewController {
         }
 
         let input = RegressionInput(x1: x1, x2: x2, x3: x3, x4: x4)
+        // 予測結果をoutputへ代入(try?はエラー時はnil返す)
         if let output = try? model.prediction(input: input) {
             resultLabel.text = "yの予測結果は: \(output.y)"
         }
